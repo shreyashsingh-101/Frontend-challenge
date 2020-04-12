@@ -52,14 +52,6 @@ h2 {
 }
 
 
-/*.card:hover~.card {
-    position: relative;
-    left: 10px;
-    right: 10px;
-    top: 0;
-    bottom: 0;
-    transition: .4s ease-out;
-}*/
 
 ::-webkit-scrollbar {
     display: none;

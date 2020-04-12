@@ -1,0 +1,116 @@
+body {
+    background: black;
+    color: white;
+}
+
+h1 {
+    font-family: 'Girassol', cursive;
+}
+
+h2 {
+    font-family: 'Girassol', cursive;
+    text-align: right;
+}
+
+.navchange a#i {
+    font-family: 'Girassol', cursive;
+    color: white;
+}
+
+.ulchange li#i a.a {
+    font-family: 'Girassol', cursive;
+    color: white !important;
+}
+
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+.scrolling-wrapper2 {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+.card {
+    display: inline-flex;
+    box-shadow: -2rem 0 10rem #000;
+    position: relative;
+    border-radius: 10px;
+    background-color: #17141d;
+    transition-duration: .5s;
+}
+
+.card:hover {
+    z-index: 100;
+    transition-duration: .7s;
+    border-radius: 0;
+}
+
+
+/*.card:hover~.card {
+    position: relative;
+    left: 10px;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    transition: .4s ease-out;
+}*/
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.card-image {
+    position: relative;
+    height: 35vh;
+    width: 24vh;
+    transition-duration: .5s;
+}
+
+.card-image:hover {
+    transform: translateZ(10px);
+    height: 37vh;
+    width: 26vh;
+    transition-duration: .5s;
+}
+
+.text {
+    color: gold;
+    display: inline;
+    padding: 10px;
+}
+
+#img {
+    float: left;
+    padding: 20px;
+}
+
+#vid {
+    float: right;
+    padding: 20px;
+    border: none;
+}
+
+footer {
+    padding: 10vh;
+    background-color: #17141d;
+    text-align: center;
+    justify-content: center;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+#id {
+    text-align: center;
+}

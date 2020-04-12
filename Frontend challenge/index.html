@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <title>Frontend Challenge</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg   sticky-top navchange">
+        <a class="navbar-brand" href="#" id="i">ImDB</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         
+          <img src="posters/icon.png" height="40px" width="40px">
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto ulchange">
+                <li class="nav-item active" id="i">
+                    <a class="nav-link a" href="#">Movies<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item" id="i">
+                    <a class="nav-link a" href="#">TV Shows</a>
+                </li>
+
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search ImDB" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <a class="nav-link" href="#">Sign In</a>
+            </form>
+        </div>
+    </nav>
+    <br><br><br><br>
+
+    <div class="row">
+
+
+        <div class="col-xl-4"><img id="img" src="posters/main.png" height="400em" width="600em"></div>
+
+        <div class="col-xl-8"><iframe id="vid" width="800em" height="400em" src="https://www.youtube.com/embed/p_PJbmrX4uk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    </div>
+
+
+
+    <div class="text">
+        <h1>&nbsp&nbsp&nbspMovies to watch. ||</h1><br>
+        <h2>Show more ></h2><br>
+    </div>
+    <div class="scrolling-wrapper">
+        <div class="card">
+            <img src="posters/m1.jpg" class="card-image">
+
+        </div>
+        <div class="card">
+            <img src="posters/m2.jpg" class="card-image">
+        </div>
+        <div class="card">
+            <img src="posters/m3.jpg" class="card-image">
+        </div>
+        <div class="card">
+            <img src="posters/d1.jpg" class="card-image">
+        </div>
+        <div class="card">
+            <img src="posters/d2.jpg" class="card-image">
+        </div>
+        <div class="card">
+            <img src="posters/d3.jpeg" class="card-image">
+        </div>
+        <div class="card">
+            <img src="posters/d4.jpg" class="card-image">
+        </div>
+        <div class="card">
+            <img src="posters/m4.jpg" class="card-image">
+        </div>
+        <div class="card">
+            <img src="posters/m5.jpg" class="card-image">
+        </div>
+    </div>
+
+
+
+    <br><br><br><br><br><br><br><br>
+
+    <div class="text">
+        <h1>&nbsp&nbsp&nbspTrending TV Shows to watch. ||</h1><br>
+        <h2>Show more ></h2><br>
+    </div>
+    <div class="scrolling-wrapper2">
+        <div class="card">
+            <img src="posters/t1.webp" class="card-image">
+
+        </div>
+        <div class="card">
+            <img src="posters/t2.jpg" class="card-image">
+        </div>
+        <div class="card">
+            <img src="posters/t3.jpg" class="card-image">
+        </div>
+        <div class="card">
+            <img src="posters/t4.jpg" class="card-image">
+        </div>
+        <div class="card">
+            <img src="posters/t5.jpg" class="card-image">
+        </div>
+        <div class="card">
+            <img src="posters/t6.webp" class="card-image">
+        </div>
+        <div class="card">
+            <img src="posters/t7.jpg" class="card-image">
+        </div>
+        <div class="card">
+            <img src="posters/t8.jpg" class="card-image">
+        </div>
+        <div class="card">
+            <img src="posters/t9.jpg" class="card-image">
+        </div>
+    </div>
+
+
+
+    <br><br><br><br><br><br><br><br>
+
+    <footer>
+        <img hheight="500" width="200" src="posters/fb.png"></img><br><br><br>
+        <div id="links" class="container"> <a href="#">ImDB</a><br><br>
+            <a class="col" href="#">Contact Us.</a>
+
+            <a class="col" href="#">ImDB pro.</a>
+        </div><br><br><br><br><br> Copyright by ImDB.com, Inc.<br>1990-2020
+    </footer>
+
+
+
+
+</body>
+
+</html>
